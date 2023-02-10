@@ -259,7 +259,7 @@ jobs:
         path: .fg/extensions/FG-4E-TEMPO-and-TEMPA
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-        
+
     # Other dev's extensions
     - name: Clone Kelrugem/Extended-automation-and-overlays
       uses: actions/checkout@v3
@@ -282,31 +282,6 @@ jobs:
         path: .fg/extensions/BetterCombatEffects
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-<<<<<<< HEAD
-    - name: Clone MeAndUnique/SizeMatters
-      uses: actions/checkout@v3
-      with:
-        repository: MeAndUnique/SizeMatters
-        path: .fg/extensions/SizeMatters
-        fetch-depth: 0
-        token: ${{ secrets.ACTIONS }}
-    - name: Clone MeAndUnique/TemporalFixation
-      uses: actions/checkout@v3
-      with:
-        repository: MeAndUnique/TemporalFixation
-        path: .fg/extensions/TemporalFixation
-        fetch-depth: 0
-        token: ${{ secrets.ACTIONS }}
-    - name: Clone SirMotte/FGU-Theme-Hearth
-      uses: actions/checkout@v3
-      with:
-        repository: SirMotte/FGU-Theme-Hearth
-        path: .fg/extensions/FGU-Theme-Hearth
-        fetch-depth: 0
-        token: ${{ secrets.ACTIONS }}
-    
-    # Processing
-=======
 
     - name: Clone rhagelstrom/BetterCombatEffects
       uses: actions/checkout@v3
@@ -380,8 +355,7 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
 
-    # Processing 
->>>>>>> 6e62950 (add repos and update triggering)
+    # Processing
     - name: Generate new .luacheckrc
       uses: FG-Unofficial-Developers-Guild/action-generate-luacheckrc@main
       with:
