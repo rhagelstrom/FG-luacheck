@@ -283,7 +283,7 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
 
-    - name: Clone rhagelstrom/BetterCombatEffects
+    - name: Clone rhagelstrom/BetterCombatEffectsGold
       uses: actions/checkout@v3
       with:
         repository: rhagelstrom/BetterCombatEffectsGold
@@ -352,6 +352,22 @@ jobs:
       with:
         repository: rhagelstrom/PowerUp
         path: .fg/extensions/PowerUp
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+
+    - name: Clone rhagelstrom/HighVariance
+      uses: actions/checkout@v3
+      with:
+        repository: rhagelstrom/HighVariance
+        path: .fg/extensions/HighVariance
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+
+    - name: Clone rhagelstrom/Turbo
+      uses: actions/checkout@v3
+      with:
+        repository: rhagelstrom/Turbo
+        path: .fg/extensions/Turbo
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
 
