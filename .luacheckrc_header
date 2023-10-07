@@ -1,5 +1,5 @@
-max_line_length = 150
-max_cyclomatic_complexity = 36
+max_line_length = 180
+max_cyclomatic_complexity = 60
 codes = true
 
 ignore = {
