@@ -384,7 +384,13 @@ jobs:
         path: .fg/extensions/BetterCombatEffectsGold
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-
+    - name: Clone rhagelstrom/Iconograffiti
+      uses: actions/checkout@v4
+      with:
+        repository: rhagelstrom/Iconograffiti
+        path: .fg/extensions/Iconograffiti
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
     # Processing
     - name: Generate new .luacheckrc
       uses: FG-Unofficial-Developers-Guild/action-generate-luacheckrc@main
