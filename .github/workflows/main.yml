@@ -391,6 +391,20 @@ jobs:
         path: .fg/extensions/BetterCombatEffectsGold
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
+    - name: Clone rhagelstrom/LifeLedger
+      uses: actions/checkout@v4
+      with:
+        repository: rhagelstrom/LifeLedger
+        path: .fg/extensions/LifeLedger
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
+    - name: Clone rhagelstrom/Pets
+      uses: actions/checkout@v4
+      with:
+        repository: rhagelstrom/Pets
+        path: .fg/extensions/Pets
+        fetch-depth: 0
+        token: ${{ secrets.ACTIONS }}
 
     # Processing
     - name: Generate new .luacheckrc
