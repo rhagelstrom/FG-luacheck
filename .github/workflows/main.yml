@@ -88,17 +88,17 @@ jobs:
         token: ${{ secrets.ACTIONS }}
 
     # bmos extensions
-    - name: Clone bmos/FG-PFRPG-Encumbrance-Penalties
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Encumbrance-Penalties
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Encumbrance-Penalties
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Encumbrance-Penalties
         path: .fg/extensions/FG-PFRPG-Encumbrance-Penalties
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Advanced-Crit-and-Fumble-Tables
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Advanced-Crit-and-Fumble-Tables
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Advanced-Crit-and-Fumble-Tables
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Advanced-Crit-and-Fumble-Tables
         path: .fg/extensions/FG-PFRPG-Advanced-Crit-and-Fumble-Tables
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
@@ -109,94 +109,94 @@ jobs:
         path: .fg/extensions/FG-PFRPG-Advanced-Effects
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Drain-and-Permanent-Bonuses
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Drain-and-Permanent-Bonuses
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Drain-and-Permanent-Bonuses
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Drain-and-Permanent-Bonuses
         path: .fg/extensions/FG-PFRPG-Drain-and-Permanent-Bonuses
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-FG-CoreRPG-Extraplanar-Containers
+    - name: Clone FG-Unofficial-Developers-Guild/FG-FG-CoreRPG-Extraplanar-Containers
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-CoreRPG-Extraplanar-Containers
+        repository: FG-Unofficial-Developers-Guild/FG-CoreRPG-Extraplanar-Containers
         path: .fg/extensions/FG-CoreRPG-Extraplanar-Containers
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-CoreRPG-Coins-Weight
+    - name: Clone FG-Unofficial-Developers-Guild/FG-CoreRPG-Coins-Weight
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-CoreRPG-Coins-Weight
+        repository: FG-Unofficial-Developers-Guild/FG-CoreRPG-Coins-Weight
         path: .fg/extensions/FG-CoreRPG-Coins-Weight
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-Ammunition-Manager
+    - name: Clone FG-Unofficial-Developers-Guild/FG-Ammunition-Manager
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-Ammunition-Manager
+        repository: FG-Unofficial-Developers-Guild/FG-Ammunition-Manager
         path: .fg/extensions/FG-Ammunition-Manager
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Upgrade-NPC-Actions
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Upgrade-NPC-Actions
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Upgrade-NPC-Actions
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Upgrade-NPC-Actions
         path: .fg/extensions/FG-PFRPG-Upgrade-NPC-Actions
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Spell-Formatting
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Spell-Formatting
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Spell-Formatting
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Spell-Formatting
         path: .fg/extensions/FG-PFRPG-Spell-Formatting
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Spell-Failure
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Spell-Failure
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Spell-Failure
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Spell-Failure
         path: .fg/extensions/FG-PFRPG-Spell-Failure
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Sanity-Tracker
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Sanity-Tracker
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Sanity-Tracker
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Sanity-Tracker
         path: .fg/extensions/FG-PFRPG-Sanity-Tracker
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Malady-Tracker
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Malady-Tracker
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Malady-Tracker
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Malady-Tracker
         path: .fg/extensions/FG-PFRPG-Malady-Tracker
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-HitMargins
+    - name: Clone FG-Unofficial-Developers-Guild/FG-HitMargins
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-HitMargins
+        repository: FG-Unofficial-Developers-Guild/FG-HitMargins
         path: .fg/extensions/FG-HitMargins
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Live-Hitpoints
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Live-Hitpoints
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Live-Hitpoints
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Live-Hitpoints
         path: .fg/extensions/FG-PFRPG-Live-Hitpoints
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Item-Durability
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Item-Durability
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Item-Durability
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Item-Durability
         path: .fg/extensions/FG-PFRPG-Item-Durability
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
-    - name: Clone bmos/FG-PFRPG-Extra-Stat-to-Saves
+    - name: Clone FG-Unofficial-Developers-Guild/FG-PFRPG-Extra-Stat-to-Saves
       uses: actions/checkout@v4
       with:
-        repository: bmos/FG-PFRPG-Extra-Stat-to-Saves
+        repository: FG-Unofficial-Developers-Guild/FG-PFRPG-Extra-Stat-to-Saves
         path: .fg/extensions/FG-PFRPG-Extra-Stat-to-Saves
         fetch-depth: 0
         token: ${{ secrets.ACTIONS }}
