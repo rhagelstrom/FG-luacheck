@@ -2,6 +2,8 @@ name: Update .luacheckrc
 
 on:
   push:
+    branches:
+      - 'main'
     paths:
       - '.luacheckrc_header'
       - '.github/workflows/main.yml'
