@@ -412,3 +412,4 @@ jobs:
         commit-message: "The latest .luacheckrc config build from targeted repos."
         branch: update-luacheckrc
         delete-branch: true
+        token: ${{ secrets.ACTIONS }}
