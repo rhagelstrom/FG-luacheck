@@ -1,6 +1,7 @@
 max_line_length = 150
 max_cyclomatic_complexity = 36
 codes = true
+cache = true
 
 ignore = {
   "111/OOB_MSGTYPE_.+",
